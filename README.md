@@ -5,9 +5,9 @@ PyTorch Implementation on Paper [BMVC2022] Distilling Knowledge from Self-Superv
 ## Introduction
 
 In this work, to leverage the strength of self-supervised pre-trained networks, we explore
-the knowledge distillation paradigm rather than using fine-tuning to transfer knowledge
+the knowledge distillation paradigm to transfer knowledge
 from a self-supervised pre-trained teacher model to a small, lightweight supervised
-student network.We propose to model the instance-instance relationships by a graph structure in the
+student network. We propose to model the instance-instance relationships by a graph structure in the
 embedding space and distill such the structural information among instances by aligning
 the teacher graph and the student graph – named as Embedding Graph Alignment (EGA).
 
@@ -24,8 +24,8 @@ numpy 1.20.3`
 ### Getting started:
 
 ### Prerequisites:
-Fetch the pretrained teacher models. For example, [CLIP](https://github.com/openai/CLIP)
-Dowload the model code and save it to `./CLIP/`.
+Fetch the pretrained teacher models. For example, use [CLIP](https://github.com/openai/CLIP) model.
+Dowload the model and save it to `./CLIP/`.
 
 #### Training on Cifar100 (as example):
 An example of running Embeeding Graph Alignment (EGA) distillation is given by `./scripts/run_vit32.sh`.
