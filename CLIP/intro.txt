@@ -1,0 +1,2 @@
+Download CLIP model to this directory
+Set up CLIP required environment.
