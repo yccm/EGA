@@ -45,12 +45,14 @@ Some arguments for training are explained below:
 `-b`: the weight of other distillation losses, default: 1.
 
 ## Bibtex
-` @article{ma2022distilling,
+``` 
+@article{ma2022distilling, 
   title={Distilling Knowledge from Self-Supervised Teacher by Embedding Graph Alignment},
   author={Ma, Yuchen and Chen, Yanbei and Akata, Zeynep},
   journal={arXiv preprint arXiv:2211.13264},
   year={2022}
-}`
+}
+```
 
 
 ## Acknowledgement
