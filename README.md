@@ -1,5 +1,5 @@
 # EGA
-PyTorch Implementation on Paper [BMVC2022] Distilling Knowledge from Self-Supervised Teacher by Embedding Graph Alignment
+PyTorch Implementation on Paper [BMVC2022] Distilling Knowledge from Self-Supervised Teacher by Embedding Graph Alignment [Paper Link](https://arxiv.org/abs/2211.13264)
 
 
 ## Introduction
@@ -43,6 +43,15 @@ Some arguments for training are explained below:
 `-a`: the weight of the KD loss, default: None
 
 `-b`: the weight of other distillation losses, default: 1.
+
+## Bibtex
+@article{ma2022distilling,
+  title={Distilling Knowledge from Self-Supervised Teacher by Embedding Graph Alignment},
+  author={Ma, Yuchen and Chen, Yanbei and Akata, Zeynep},
+  journal={arXiv preprint arXiv:2211.13264},
+  year={2022}
+}
+
 
 ## Acknowledgement
 This repo is based on the implementation of [CRD](https://github.com/HobbitLong/RepDistiller).
