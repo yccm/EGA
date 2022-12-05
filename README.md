@@ -1,5 +1,6 @@
 # EGA
-PyTorch Implementation on Paper [BMVC2022] Distilling Knowledge from Self-Supervised Teacher by Embedding Graph Alignment 
+PyTorch Implementation on Paper [BMVC2022] Distilling Knowledge from Self-Supervised Teacher by Embedding Graph Alignment
+
 [Paper Link](https://arxiv.org/abs/2211.13264)
 
 
